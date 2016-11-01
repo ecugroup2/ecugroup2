@@ -43,7 +43,10 @@
 
 			<div class=column30>
 			<img src="HighSchool.jpeg" width=60% ></img>
+			 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+</canvas> 
 			<script type="text/javascript">
+			var ctx = document.getElementById('myCanvas').getContext('2d');
 			var HighSchoolCareer = new Chart(ctx, {
     		type: 'bar',
     		data: data,
