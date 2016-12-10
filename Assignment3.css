@@ -1,0 +1,132 @@
+/* Layout */
+
+body {
+    font:normal 20px/1.6em Times New Roman, Times, serif;
+	color:#2a3845;
+	margin:20;
+	padding:20;
+	background:#21618c;
+}
+
+p {
+	margin:0;
+	padding:0;
+}
+
+#wrapper {
+	margin:0 auto;
+	width:1000px;
+	border-left:1px solid #f0e9eb;
+	border-right:1px solid #f0e9eb;
+}
+
+#header {
+	margin:0 1px;
+}
+
+#bg {
+	height:50px;
+	background:url('http://img840.imageshack.us/img840/9886/87926428.gif') repeat-x;
+}
+
+#main-content {
+	margin:0 auto;
+}
+
+#main-image {
+	text-align:center;
+}
+
+
+}
+
+.sidebar {
+	width:300px;
+	margin:0 auto;
+	padding:10px 25px;
+	background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
+}
+
+#footer {
+	background:#00FF0F;
+	border-top:1px solid #00FF0F;
+	padding:10px 15px;
+	clear:both;
+}
+
+/* Global Styling */
+
+a:visited, a:link {
+	color:#000000;
+	text-decoration:underline;
+	background:none;
+}
+
+a:hover {
+	color:#000000;
+	text-decoration:none;
+	background:none;
+}
+
+h1 {
+	color:#F8F9F9;
+	margin:0 0 10px;
+	padding-bottom:10px;
+	font:normal 35px Georgia, serif;
+	border-bottom:1px solid #efece7;
+}
+
+h2 {
+	color:#F8F9F9;
+	margin:27px 0 10px;
+	padding-bottom:10px;
+	font:normal 30px Georgia, serif;
+	border-bottom:1px solid #efece7;
+}
+
+h3 {
+	color:#F8F9F9;
+	margin:10px 0;
+	padding-bottom:10px;
+	font:bold 20px Georgia, Helvetica, sans-serif;
+	border-bottom:1px solid #efece7;
+}
+
+ul {
+	padding:0;
+	margin:0 0 0 17px;
+	list-style:square url('http://img525.imageshack.us/img525/1890/bulletr.gif');
+}
+
+.box {
+	background:#009DFC;
+	border:1px solid #f0e9eb;
+	padding:15px;
+}
+
+#nav {
+	background:#06a;
+	padding:10px 20px;
+	text-align:right;
+	color:#f6dde3;
+}
+
+#nav a {
+	margin: 0 10px;
+}
+
+#nav a:visited, #nav a:link {
+	text-decoration:none;
+	color:#f6dde3;
+}
+
+#nav a:hover {
+	text-decoration:underline;
+	color:#f6dde3;
+}
+
+#logo {
+	margin-bottom:20px;
+	font:normal 18px Helvetica, sans-serif;
+	color:white;
+
